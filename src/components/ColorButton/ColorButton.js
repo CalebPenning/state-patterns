@@ -2,7 +2,7 @@ const ColorButton = ({ color, addCircle }) => {
     return (
         <button
             onClick={() => addCircle(color)}
-            className="ColorButtons-btn"
+            className="ColorButton"
             style={{ backgroundColor: color }}
         >
             {color}

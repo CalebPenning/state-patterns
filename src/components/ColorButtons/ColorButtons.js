@@ -1,16 +1,11 @@
 import './ColorButtons.css'
+import ColorButton from '../ColorButton/ColorButton'
 
 const ColorButtons = ({ options, addCircle }) => {
     return (
         <div className="ColorButtons">
             {options.map(color => (
-            <button 
-                onClick={() => addCircle(color)} 
-                className="ColorButton-btn"
-                style={{ backgroundColor: color }}
-            >
-                {color}
-            </button>)
+            <ColorButton color={color} addCircle={addCircle} />)
             )}
         </div>
     )

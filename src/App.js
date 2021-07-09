@@ -1,5 +1,4 @@
 import './App.css'
-import Circle from './components/Circle/Circle'
 import ColoredCircles from './components/ColoredCircles/ColoredCircles'
 
 const App = () => {
